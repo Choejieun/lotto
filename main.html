@@ -13,37 +13,78 @@
 
 <body>
 
+    <div id ="all_new">
     <div id="all">
+        <div id="headtext">lotto</div>
         <div id="m">
-            <input id="rpc_input_button" type="button" value="로또 추첨" onclick="rpcInputButtonClick();">
+            <img id="rpc_input_button" src="img/gobutton.png" alt="로또 추첨" onclick="rpcInputButtonClick()">
+            <!-- <input id="rpc_input_button" type="button" value="로또 추첨" onclick="rpcInputButtonClick()"> -->
             <div id="checkbox">
                 자동
-                <input id="rpc_input_checkbox" type="checkbox" value="체크박스">
+                <input id="rpc_input_checkbox" type="checkbox" value="체크박스" onchange="check()">
             </div>
         </div>
         <br>
-        <div id="m">
-            <input id="mytext_box1" type="text" placeholder="내 번호 적기">
-            <input id="mytext_box2" type="text" placeholder="내 번호 적기">
-            <input id="mytext_box3" type="text" placeholder="내 번호 적기">
-            <input id="mytext_box4" type="text" placeholder="내 번호 적기">
-            <input id="mytext_box5" type="text" placeholder="내 번호 적기">
-            <input id="mytext_box0" type="text" placeholder="내 번호 적기">
+        <div id="checkbox_on_off">
+            수동 번호 입력
+            <div id="texts">
+                <input id="mytext_box0" type="text" placeholder=" ">
+                <input id="mytext_box1" type="text" placeholder=" ">
+                <input id="mytext_box2" type="text" placeholder=" ">
+                <input id="mytext_box3" type="text" placeholder=" ">
+                <input id="mytext_box4" type="text" placeholder=" ">
+                <input id="mytext_box5" type="text" placeholder=" ">
+            </div>
         </div>
         <br>
         <div id="n">
-            <textarea id="rpc_input_text" placeholder="결과화면"></textarea>
-            <textarea id="rpc_input_text_r1" placeholder="가나다"></textarea>
-            <textarea id="rpc_input_text_r2" placeholder="가나다"></textarea>
-            <textarea id="rpc_input_text_r3" placeholder="가나다"></textarea>
-            <textarea id="rpc_input_text_r4" placeholder="가나다"></textarea>
-            <textarea id="rpc_input_text_r5" placeholder="가나다"></textarea>
-            <textarea id="rpc_input_text_r0" placeholder="가나다"></textarea>
+            <div id="checkbox">
+                1번
+                <textarea id="rpc_input_text_r0" placeholder="1번"></textarea>
+            </div>
+            <div id="checkbox">
+                2번
+                <textarea id="rpc_input_text_r1" placeholder="2번"></textarea>
+            </div>
+            <div id="checkbox">
+                3번
+                <textarea id="rpc_input_text_r2" placeholder="3번"></textarea>
+            </div>
+            <div id="checkbox">
+                4번
+                <textarea id="rpc_input_text_r3" placeholder="4번"></textarea>
+            </div>
+            <div id="checkbox">
+                5번
+                <textarea id="rpc_input_text_r4" placeholder="5번"></textarea>
+            </div>
+            <div id="checkbox">
+                6번
+                <textarea id="rpc_input_text_r5" placeholder="6번"></textarea>
+            </div>
+            <div id="checkbox" class="b_text">
+                보너스
+                <textarea id="rpc_input_text_r6" placeholder="7번"></textarea>
+            </div>
         </div>
         <textarea id="my"></textarea>
+
     </div>
+    <div id="bot_text">
+        <pre>
+<p class="b_text">주의</p>
+당첨번호에 앞서 먼저 정식 인가된 복권판매점에서 구입한 것이 맞는지 점검해 보세요.
+유사단말기나 인터넷 등 비 인가된 업체로부터 복권을 구입한 경우,
+번호가 일치해도 당첨금이 지급되지 않으니 피해가 없도록 주의해야 합니다
+</pre>
+    </div>
+    <div id="imgs">
+        <a href="https://singo.ngcc.go.kr/singo/portal/main.do">
+        <img src="img/112.png"></a>
+    </div>
+    <div id="we_neme">@임재열(github.com/ImParks) @최지은(github.com/Choejieun)</div>
 
-
+</div>
 </body>
 
 </html>

@@ -1,9 +1,37 @@
-body {margin: auto;}
+body {margin: auto; margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:lightyellow ;
+    line-height: 25px;
+    color: gray;
+    font-size: 12px;
+}
 
-#rpc_input_text {
+#all_new {
+    margin: auto;
+    width: 700px;
+
+}
+
+#we_neme {
+    text-align: right;
+    color: gray;
+    font-size: 9px;
+    margin-top: 5px;
+    
+}
+
+#headtext{
+    color: rgb(63, 117, 0);
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+#rpc_input_text_r0 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -11,7 +39,7 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
 
 
@@ -20,7 +48,7 @@ body {margin: auto;}
 #rpc_input_text_r1 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -28,15 +56,17 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+
+
 
 
 }
 #rpc_input_text_r2 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -44,15 +74,17 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+
+
 
 
 }
 #rpc_input_text_r3 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -60,15 +92,16 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+
 
 
 }
 #rpc_input_text_r4 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -76,15 +109,16 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+
 
 
 }
 #rpc_input_text_r5 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color:rgb(255, 251, 240);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -92,15 +126,17 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+
+
 
 
 }
-#rpc_input_text_r0 {
+#rpc_input_text_r6 {
     width: 80px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(255, 219, 219);
     resize: none;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -108,54 +144,98 @@ body {margin: auto;}
     font-size: 45px;
     overflow: hidden; /* 스크롤 숨김 */
     line-height: 50px; /* 텍스트 세로 중앙 정렬 */
-    border-radius: 100px;
+    border-radius: 10px;
     margin: 3px;
+    border: 1px solid red;
+    color: red;
+
 
 }
 
 #all {
-        margin: auto;
-        width: 700px;
-        height: 500px;
-        border: solid red 5px;
-        border-radius: 50px;
-        text-align: center;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    border: solid rgb(13, 133, 59) 3px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     }
+
+#bot_text {
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    padding-top: 20px;
+    width: 650px;
+    height: 70px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: rgb(218, 218, 218);
+    text-align: left;
+    color: rgb(134, 134, 134);
+    font-size: 11px;
+    line-height: 15px;
+
+
+}
+
+#imgs>a>img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
 
     #checkbox{
         display: flex;
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     #n {
         display: flex;
-        margin: 50px;
+        margin-bottom: 30px;
     }
 
     #my {
-        width:400px;
+        width:630px;
         height: 80px;
-        background-color: greenyellow;
-        color: blue;
+        background-color: rgb(218, 245, 174);
+        color:green;
         text-align: center;
         font-family:Arial, Helvetica, sans-serif;
         font-size: 20px;
         overflow: hidden; /* 스크롤 숨김 */
-        line-height: 50px; /* 텍스트 세로 중앙 정렬 */
+        line-height: 40px;
         border-radius: 30px;
+        resize: none;
+        border: 0px;
     }
     
     #m {
         display: flex;
+        overflow: hidden;
+        height: 60px;
     }
 
+    #texts {
+        display: flex;
+    }
+
+    #mytext_box0{
+        width: 10px;
+        height: 10px; margin-left: 10px;
+        margin-right: 10px;
+    }
+    
     #mytext_box1{
         width: 10px;
         height: 10px; margin-left: 10px;
@@ -186,22 +266,18 @@ body {margin: auto;}
         margin-right: 10px;
     }
     
-    #mytext_box0{
-        width: 10px;
-        height: 10px; margin-left: 10px;
-        margin-right: 10px;
-    }
-    
 
     #rpc_input_button{
-        background-color: purple;
+        /* background-color: purple; */
         border: 0px;
         border-radius: 10px;
         width: 100px;
-        height: 50px;
+        height: 80px;
+        /* height: 50px; */
         font-family: 'TAEBAEK font', sans-serif;
         font-weight: 800;
         color: white;
+        overflow: hidden;
     }
 
     #rpc_input_checkbox{
@@ -209,3 +285,7 @@ body {margin: auto;}
         width: 20px;
     }
 
+    .b_text {
+        color: red;
+        font-weight: 800;
+    }
